@@ -1,7 +1,7 @@
 from itertools import combinations
 
 
-numbers = sorted(map(int, input().split()))
+numbers = sorted(set(map(int, input().split())))
 
 all_subsets = []
 for num in range(len(numbers) + 1):

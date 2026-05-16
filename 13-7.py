@@ -1,7 +1,7 @@
 from itertools import permutations
 
 
-numbers = sorted(set(map(int, input().split()))
+numbers = sorted(set(map(int, input().split())))
 
 for perm in permutations(numbers):
     print(' '.join(map(str, perm)))

@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 nums = eval(input().split("=")[1].strip())
 result = set()
 
